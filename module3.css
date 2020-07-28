@@ -1,0 +1,128 @@
+body{
+
+
+  font-family: sans-serif;
+
+  font-weight: bolder;
+
+}
+
+#header-nav
+
+{
+
+  border: 0;
+
+  border-radius: 0;
+
+}
+
+.line{
+  width: 112px;
+  height: 47px;
+  border-bottom: 1px soild black;
+  position: absolute;
+}
+
+@media (min-width:420px)
+
+{
+
+button{
+
+  visibility: hidden;
+
+}
+
+}
+
+#bold{
+
+font-weight: bolder;
+
+font-size: x-large;
+
+}
+
+
+
+.box{
+
+border: 3px solid black;
+
+margin: 20px;
+
+box-sizing: border-box;
+
+overflow: auto;
+
+background-color: lightgrey;
+
+margin-bottom: 50px;
+
+}
+
+
+
+
+
+h1{
+
+  padding: 30px;
+
+}
+
+
+
+
+@media (min-width: 992px)
+
+{
+
+    .col-lg-4{
+
+        width: 33.33%;
+
+        float: left;
+
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px)
+
+{
+
+    .col-md-6{
+
+        width: 50%;
+
+        float: left;
+
+    }
+
+    .col-md-12{
+
+        width: 100%;
+
+        float: left;
+
+    }
+
+}
+
+@media (max-width:767px)
+
+{
+
+    .col-sm-12{
+
+        width: 100%;
+
+        float: left;
+
+    }
+
+    
+
+}
